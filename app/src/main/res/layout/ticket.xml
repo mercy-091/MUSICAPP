@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:background="#d4d3d3"
+              android:orientation="horizontal"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_margin="5pt"
+            android:background="@drawable/background_ticket"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/sermon"
+                android:text="Sermon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+        <TextView
+                android:id="@+id/teacher"
+                android:textSize="12sp"
+                android:text="Teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="40pt"/>
+
+    </LinearLayout>
+
+        <Button
+                android:id="@+id/play"
+                android:text="Play"
+                android:background="@drawable/button_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        android:layout_weight="0"/>
+
+    </LinearLayout>
+
+</LinearLayout>
